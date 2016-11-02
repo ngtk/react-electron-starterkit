@@ -1295,6 +1295,16 @@ electron-download@^3.0.1:
     semver "^5.3.0"
     sumchecker "^1.2.0"
 
+electron-is-dev@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-0.1.2.tgz#8a1043e32b3a1da1c3f553dce28ce764246167e3"
+
+electron-load-devtool@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/electron-load-devtool/-/electron-load-devtool-0.3.0.tgz#0bf9b155c843158a83b1547168231f5102ad3332"
+  dependencies:
+    electron-is-dev "^0.1.2"
+
 emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
