@@ -6,7 +6,7 @@ module.exports = {
   context: path.resolve('./frontend'),
   entry: {
     javascriptt: [
-      'webpack-dev-server/client?http://localhost:3000',
+      'webpack-dev-server/client?http://localhost:3001',
       'webpack/hot/only-dev-server',
       'react-hot-loader/patch',
       'whatwg-fetch',

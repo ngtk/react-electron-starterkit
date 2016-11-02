@@ -13,7 +13,7 @@ function createWindow () {
   mainWindow.loadURL(url.format({
     pathname: 'index.html',
     protocol: 'http',
-    host: 'localhost:3000',
+    host: 'localhost:3001',
     slashes: true,
   }));
 

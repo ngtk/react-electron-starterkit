@@ -2,7 +2,7 @@
 
 set -eux
 
-PORT=3000 npm run server &
+PORT=3001 npm run server &
 npm start
 
 for job in `jobs -p`; do kill $job; done
