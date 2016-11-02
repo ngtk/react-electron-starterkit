@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import styles from './Counter.css';
 
-const Counter = ({ count, onClick, onSave }) => (
+const Counter = ({ count, onClick, onClickReset, onSave }) => (
   <div className={styles.base}>
     <div className={styles.header}>
       <h2>Welcome to React</h2>
@@ -11,6 +11,12 @@ const Counter = ({ count, onClick, onSave }) => (
       onClick={onClick}
     >
       Clicked: {count}!
+    </p>
+    <p
+      className={styles.reset}
+      onClick={onClickReset}
+    >
+      Reset!
     </p>
   </div>
 );

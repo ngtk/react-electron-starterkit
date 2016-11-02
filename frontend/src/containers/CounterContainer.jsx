@@ -42,6 +42,7 @@ class CounterContainer extends Component {
       <Counter
         count={counter.count}
         onClick={actions.increaseCount}
+        onClickReset={actions.resetCount}
         //onClick={actions.increaseCountWithDelay}
       />
     );
